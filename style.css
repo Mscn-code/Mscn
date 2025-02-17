@@ -1,0 +1,47 @@
+ body {
+    background-image: url(Img/craft.jpeg);
+    margin: none;
+    padding: none;
+ }
+
+.flexbox {
+    display: flexbox;
+    float: right;
+    margin: 0px 20px 0px 20px;
+ }
+
+ a {
+    box-sizing: border-box;
+    border: 2px solid orange;
+    border-radius: 10px;
+    background-color: burlywood;
+    padding: 0px 20px 0px 20px;
+    margin: 0px 15px 0px 15px;
+    text-decoration: none;
+ }
+
+ a:hover {
+    background-color: aqua;
+    color: whitesmoke;
+    border-color: aqua;
+ }
+
+ form {
+    justify-items: center;
+    box-sizing: border-box;
+    border: 4px solid yellow;
+    border-radius: 10px;
+    margin: 0px 300px 0px 300px;
+   padding: 30px 50px 300px 100px;
+ }
+
+ input[type=text], input[type=password], button[type=submit] {
+    
+  padding: 12px 20px 0px 2px;
+  margin: 8px 0;
+  display: inline-block;
+  border: 1px solid #ccc;
+  box-sizing: border-box;
+ }
+ 
+
